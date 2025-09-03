@@ -12,7 +12,6 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: "futuristicAndOutOfBox", colorTemplate: 2, textAnimation: "highlight" }}>
       <NavbarStyleMinimal
         logoSrc="/images/logo.svg"
-        logoAlt="NovaSphere Logo"
         logoWidth={120}
         logoHeight={40}
         buttonText="Get Early Access"
