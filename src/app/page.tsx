@@ -6,6 +6,7 @@ import CtaAbout from '@/components/sections/layouts/about/CtaAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterLogo from '@/components/footer/FooterLogo';
+import { LucideIcon } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -48,8 +49,8 @@ export default function Home() {
           title="Our Tokenomics"
           description="Here's how our token math works"
           kpiItems={[
-            { value: "10M", description: "Total Supply", icon: "LucideIcon" },
-            { value: "5M", description: "Circulating Supply", icon: "LucideIcon" }
+            { value: "10M", description: "Total Supply", icon: null as LucideIcon },
+            { value: "5M", description: "Circulating Supply", icon: null as LucideIcon }
           ]}
         />
       </div>
