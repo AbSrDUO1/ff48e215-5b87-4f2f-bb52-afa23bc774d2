@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarStyleMinimal from '@/components/navigation/NavbarStyleMinimal';
 import TokenBillboardHero from '@/components/sections/layouts/hero/TokenBillboardHero';
@@ -49,8 +49,8 @@ export default function Home() {
           title="Our Tokenomics"
           description="Here's how our token math works"
           kpiItems={[
-            { value: "10M", description: "Total Supply", icon: LucideIcon },
-            { value: "5M", description: "Circulating Supply", icon: LucideIcon }
+            { value: "10M", description: "Total Supply", icon: "LucideIcon" },
+            { value: "5M", description: "Circulating Supply", icon: "LucideIcon" }
           ]}
         />
       </div>
